@@ -3,7 +3,7 @@ import cv2 as cv
 
 # Read image
 img = cv.imread('Resources/Photos/cat.jpg')
-
+print(type(img))
 # Show image as matrix of pixels
 # cv.imshow(nameOfWindow, matrixOfPixels)
 cv.imshow('Cat', img)
